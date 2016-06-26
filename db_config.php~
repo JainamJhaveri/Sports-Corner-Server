@@ -1,0 +1,6 @@
+<?php
+define('DB_USER', "u981132216_user");      // db user
+define('DB_PASSWORD', "root"); // db password (mention your db password here)
+define('DB_DATABASE', "	u981132216_db"); // database name
+define('DB_SERVER', "mysql.hostinger.in"); // db server
+?>
