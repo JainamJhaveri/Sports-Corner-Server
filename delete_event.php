@@ -24,7 +24,7 @@ if (isset($_POST['eventName']) && isset($_POST['startDate'])) {
 
     if (mysqli_affected_rows($link) > 0) {
         $response["success"] = 1;
-        $response["message"] = "Event successfully deleted." . mysqli_affected_rows($link);
+        $response["message"] = "Event successfully deleted.";
 
         // echoing JSON response
         echo json_encode($response);
